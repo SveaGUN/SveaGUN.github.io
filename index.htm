@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>something</title>
+
+    <!--css-->
+    <link href="index.css" rel="stylesheet" />
+
+    <!--フォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+U:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header class="_header">
+        <div class="header_outer">
+            <div class="header_inner">
+                <div class="header_left">
+                    <div class="header_logo">
+                        <a href="/">
+                            <img src="Resource/headerLogo.png">
+                        </a>
+                    </div>
+
+                    <div class="header_nav">
+                        <nav>
+                            <ul class="ul_nav">
+                                <li><a href="/">ABOUT</a></li>
+                                <li><a href="https://news.google.com/home?hl=ja&gl=JP&ceid=JP%3Aja">NEWS</a></li>
+                                <li><a href="https://x.com/home">TWITTER</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Cat">CAT</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header_right">
+                    <p>hiiiiiiiiiii</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--中身-->
+    <div class="main">
+
+        <div class="content_news">
+            <h1>NEWS</h1>
+            <h2>nvidia関連の記事はこちら (出典 : XenoSpectrum (xenospectrum.com))</h2>
+            <script src="GetNews.js"></script>
+            <button type="button" onclick="loadArticles()">更新する</button>
+            <div class="news_list">
+                <ul id="ul_news"> 記事がでるよ </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

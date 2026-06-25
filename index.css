@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-style: normal;
+    background-image: url("Resource/tawagoto.png");
+    background-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+/*==========ヘッダー==========*/
+._header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.header_outer {
+    background-color: white;
+}
+
+.header_inner {
+    position: relative;
+    margin: auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    width: 300px;
+}
+
+/*ヘッダーナビゲーション*/
+.header_nav {
+    margin-left: 80px;
+}
+
+    .header_nav a {
+        margin: 0.5em;
+        font-size: 30px;
+        font-weight: 1000;
+        color: black;
+    }
+
+        .header_nav a:hover {
+            opacity: 0.3;
+        }
+
+    .header_nav li {
+        list-style: none;
+    }
+
+    .header_nav ul {
+        padding-left: 0px;
+    }
+
+.ul_nav {
+    display: flex;
+    margin: 0 -0.5em;
+}
+
+/*==========NEWS==========*/
+#ul_news {
+    padding: 30px;
+    background-color: lightslategray;
+}
+
+    #ul_news a {
+        margin: 0.5em;
+        font-size: 20px
+    }
+
+    #ul_news li {
+        list-style: none;
+    }
+
+    #ul_news ul {
+        padding-left: 0px;
+    }
